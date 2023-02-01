@@ -1,0 +1,31 @@
+
+{% extends 'blog.html' %}
+{% load crispy_forms_filters %}
+
+
+
+{% block content %}
+<center><br>
+    <h1 style="color:red;"> Reset Password </h1></center>
+   {% if messages %}
+
+        {% for message in messages %}
+            <p style="color:red">{{message}}</p>
+        {% endfor %}
+    {% endif %}
+    <form action="{% url 'subscribe' %}" method="POST">
+        {% csrf_token %}
+        {{form|crispy}}<br>
+        <br>
+
+
+
+        <br>
+        <input type="submit" class="form-control btn btn-primary btn-medium" value="submit">
+    </form>
+
+</main>
+
+
+
+{% endblock %}
