@@ -139,8 +139,8 @@ CRISPY_TEMPLATE_PACK='bootstrap4'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_USE_TLS=True
 EMAIL_PORT=587
-EMAIL_HOST_USER='blessysusancheriyan29@gmail.com'
-EMAIL_HOST_PASSWORD='xljmelezvegzcsjw'
+EMAIL_HOST_USER=''
+EMAIL_HOST_PASSWORD=''
 
 
 # Activate Django-Heroku.
