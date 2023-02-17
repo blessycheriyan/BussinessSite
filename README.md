@@ -8,6 +8,9 @@ Explore to watch live business website
 
 Steps to Run in Locally:
 
+create virtual env :-
+python -m venv env
+
 Step 1 Enable the existing  virtual env path for Command :
 
 env\scripts\activate
